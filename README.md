@@ -1,7 +1,7 @@
 # Sqare-Inch-Challange
 This Github Repository is for ESP8266 device which can measure data from sensors and upload them on GoogleDrive Sheets. Footprint of this device is 1x1 inch(25.4mm x 25.4mm)
 
-## Komponents needed:
+## Komponents needed
 * [PCB](https://raw.githubusercontent.com/StanislavJochman/Sqare-Inch-Challange/master/Gerber_Files.zip)
 * [ESP8266](https://www.ebay.co.uk/itm/Profession-Esp-12E-ESP8266-Serial-Port-WIFI-Transceiver-Wireless-Module-AP-STA/163158011629?epid=16021614732&hash=item25fcf9aeed:g:bIIAAOSwK-NbUZIL)
 * [DS18B20](https://www.ebay.co.uk/itm/DS18B20-TO-92-9-12bit-Temperature-Sensor-Dallas-Thermometer-Temperature-Sensor/291950339086?hash=item43f998a40e:m:m4YO8sV3_vF_5mhnVRi-43A)
@@ -12,3 +12,18 @@ This Github Repository is for ESP8266 device which can measure data from sensors
 * [6 x 10k resistor(0805)](https://www.ebay.co.uk/itm/100Pcs-Resistor-10K-Ohm-0805-Smd-Rohs-New-Ic/382469082086?hash=item590cef0be6:g:858AAOSwxblbQlc-)
 * [2 x 4k7 resistor(0805)](https://www.ebay.co.uk/itm/100Pcs-Resistor-4K7-Ohm-0805-Smd-Rohs-Ic-New/132176766970?hash=item1ec65967fa:g:0ncAAOSwDcZbPfAu)
 * [1 x 1k resistor(0805)](https://www.ebay.co.uk/itm/100Pcs-0805-Smd-Smt-1K-1Kohn-Value-5-Resistor-New-Ic/382469059974?hash=item590ceeb586:g:~JoAAOSwl~ZbQlSN)
+## Price calculation
+| Component             | Price per 3 units |
+|-----------------------|:-----------------:|
+| PCB                   |         5$        |
+| ESP8266               |       6.09$       |
+| DS18B20               |       3,78$       |
+| DHT22                 |       8,34$       |
+| BMP180/BMP180 Modul   |     5.4$/3,78$    |
+| LDR                   |       1.26$       |
+| 100n capacitor (0805) |       3.31$       |
+| 10k resistors (0805)  |       1.26$       |
+| 1k resistors (0805)   |       1.26$       |
+| 4k7 resistors (0805)  |       1.26$       |
+|-----------------------|-------------------|
+| Total:                |  36,96$ / 35,34$  |
