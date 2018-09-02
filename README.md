@@ -1,7 +1,7 @@
 # Sqare-Inch-Challange
 This Github Repository is for ESP8266 device which can measure data from sensors and upload them on GoogleDrive Sheets. Footprint of this device is 1x1 inch(25.4mm x 25.4mm)
 
-## Order one
+## Order PCB
 [OSH park](https://oshpark.com/shared_projects/sk7W7fMs)
 
 ## Komponents needed
