@@ -9674,28 +9674,21 @@ Note: The AM2302 is a wired version of the DHT-22 which typically requires less 
 <part name="U1" library="Square_inch_Challange" deviceset="ESP12E" device="SMD"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="DHT22/DHT11" library="Square_inch_Challange" deviceset="RHT03_DHT-22_AM2302" device=""/>
 <part name="U$1" library="1wire" deviceset="1W_SUP" device=""/>
-<part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TX" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP17SQ" package3d_urn="urn:adsk.eagle:package:27977/1"/>
 <part name="RX" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP17SQ" package3d_urn="urn:adsk.eagle:package:27977/1"/>
 <part name="RESET" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP17SQ" package3d_urn="urn:adsk.eagle:package:27977/1"/>
-<part name="DTR" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP17SQ" package3d_urn="urn:adsk.eagle:package:27977/1"/>
 <part name="BMP180" library="BMP180" deviceset="BMP180" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -9723,6 +9716,7 @@ Note: The AM2302 is a wired version of the DHT-22 which typically requires less 
 <part name="DS18B20" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9735,28 +9729,21 @@ Note: The AM2302 is a wired version of the DHT-22 which typically requires less 
 </instance>
 <instance part="C1" gate="G$1" x="5.08" y="38.1"/>
 <instance part="C2" gate="G$1" x="-12.7" y="38.1"/>
-<instance part="R1" gate="G$1" x="20.32" y="63.5" rot="R90"/>
-<instance part="R2" gate="G$1" x="12.7" y="63.5" rot="R90"/>
-<instance part="R3" gate="G$1" x="71.12" y="63.5" rot="R90"/>
-<instance part="R4" gate="G$1" x="66.04" y="33.02" rot="R90"/>
 <instance part="+3V1" gate="G$1" x="5.08" y="45.72"/>
 <instance part="+3V2" gate="G$1" x="-12.7" y="45.72"/>
 <instance part="GND1" gate="1" x="60.96" y="22.86"/>
 <instance part="GND2" gate="1" x="5.08" y="27.94"/>
 <instance part="GND3" gate="1" x="-12.7" y="27.94"/>
 <instance part="+3V3" gate="G$1" x="20.32" y="38.1" rot="R90"/>
-<instance part="+3V4" gate="G$1" x="20.32" y="73.66"/>
 <instance part="+3V5" gate="G$1" x="12.7" y="73.66"/>
 <instance part="DHT22/DHT11" gate="G$1" x="114.3" y="73.66"/>
 <instance part="U$1" gate="G$1" x="22.86" y="43.18"/>
-<instance part="+3V6" gate="G$1" x="71.12" y="73.66"/>
 <instance part="+3V7" gate="G$1" x="101.6" y="86.36"/>
 <instance part="GND4" gate="1" x="101.6" y="60.96"/>
 <instance part="GND5" gate="1" x="66.04" y="22.86"/>
 <instance part="TX" gate="G$1" x="119.38" y="48.26" rot="R90"/>
 <instance part="RX" gate="G$1" x="119.38" y="43.18" rot="R90"/>
 <instance part="RESET" gate="G$1" x="119.38" y="38.1" rot="R90"/>
-<instance part="DTR" gate="G$1" x="119.38" y="33.02" rot="R90"/>
 <instance part="BMP180" gate="G$1" x="96.52" y="2.54"/>
 <instance part="GND6" gate="1" x="114.3" y="-7.62"/>
 <instance part="+3V8" gate="G$1" x="114.3" y="15.24"/>
@@ -9784,6 +9771,7 @@ Note: The AM2302 is a wired version of the DHT-22 which typically requires less 
 <instance part="DS18B20" gate="A" x="27.94" y="96.52" rot="R90"/>
 <instance part="GND10" gate="1" x="25.4" y="81.28"/>
 <instance part="+3V16" gate="G$1" x="35.56" y="96.52"/>
+<instance part="GND11" gate="1" x="71.12" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -9812,9 +9800,10 @@ Note: The AM2302 is a wired version of the DHT-22 which typically requires less 
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="27.94" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="GPIO15"/>
+<wire x1="58.42" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="40.64" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BMP180" gate="G$1" pin="GND"/>
@@ -9841,6 +9830,11 @@ Note: The AM2302 is a wired version of the DHT-22 which typically requires less 
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="25.4" y1="83.82" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO0"/>
+<wire x1="58.42" y1="45.72" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -9860,18 +9854,9 @@ Note: The AM2302 is a wired version of the DHT-22 which typically requires less 
 </segment>
 <segment>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="71.12" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="71.12" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="+3V6" gate="G$1" pin="+3V3"/>
-<wire x1="71.12" y1="71.12" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="CH_PD"/>
+<wire x1="12.7" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="50.8" x2="12.7" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
@@ -9936,30 +9921,12 @@ Note: The AM2302 is a wired version of the DHT-22 which typically requires less 
 <segment>
 <pinref part="U1" gate="G$1" pin="RESET"/>
 <wire x1="25.4" y1="55.88" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="55.88" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
-<label x="25.4" y="55.88" size="1.778" layer="95" rot="R90" xref="yes"/>
+<label x="20.32" y="55.88" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="RESET" gate="G$1" pin="TP"/>
 <wire x1="116.84" y1="38.1" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
 <label x="114.3" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="58.42" x2="12.7" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="CH_PD"/>
-<wire x1="12.7" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO15"/>
-<wire x1="58.42" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="40.64" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DHT" class="0">
@@ -10001,20 +9968,6 @@ Note: The AM2302 is a wired version of the DHT-22 which typically requires less 
 <pinref part="RX" gate="G$1" pin="TP"/>
 <wire x1="116.84" y1="43.18" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
 <label x="114.3" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="DTR" class="0">
-<segment>
-<pinref part="DTR" gate="G$1" pin="TP"/>
-<wire x1="116.84" y1="33.02" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
-<label x="114.3" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO0"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="45.72" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="45.72" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
-<label x="71.12" y="45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -10090,6 +10043,15 @@ Note: The AM2302 is a wired version of the DHT-22 which typically requires less 
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,104.14,81.28,DHT22/DHT11,VDD,+3V3,,,"/>
+<approved hash="104,1,111.76,7.62,BMP180,VDD,+3V3,,,"/>
+<approved hash="104,1,111.76,2.54,BMP180,VDDIO,+3V3,,,"/>
+<approved hash="113,1,54.0004,38.4912,U1,,,,,"/>
+<approved hash="113,1,110.69,75.1459,DHT22/DHT11,,,,,"/>
+<approved hash="113,1,150.097,25.6261,I2C,,,,,"/>
+<approved hash="113,1,26.4439,95.3611,DS18B20,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
